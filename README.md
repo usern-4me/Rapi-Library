@@ -65,9 +65,9 @@ pnpm tauri dev
 
 ### ✅ Phase 1: Foundation & Menu UI
 
-* [ ] Initialize Git repository and commit base project
-* [ ] Define project structure
-* [ ] Setup basic Tauri backend and frontend wiring
+* [x] Initialize Git repository and commit base project
+* [x] Define project structure
+* [x] Setup basic Tauri backend and frontend wiring
 * [ ] Create **startup menu UI**:
 
   * Buttons for built-in sources like:
