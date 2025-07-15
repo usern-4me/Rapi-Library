@@ -2,7 +2,8 @@ import { useState } from "react";
 //import { invoke } from "@tauri-apps/api/core";
 import "./App.css";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
+//import Footer from "./components/Footer";
+import StartupScreen from "./components/StartupScreen";
 
 
 
@@ -12,7 +13,7 @@ function App() {
   return (
     <>
       <Header onMenuClick={() => setSidebarOpen(open => !open)}/>
-      <Footer/>
+      <StartupScreen></StartupScreen>
     </>
   );
 }
