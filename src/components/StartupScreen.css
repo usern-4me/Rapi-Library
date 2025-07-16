@@ -1,7 +1,9 @@
 .StartupScreen {
     background-color: #121212;
     width: 100%;
-    height: calc(100vh - 4rem);
+    height: calc(100vh - 4rem - 10%);
+
+    padding-top: 10%;
 }
 .preloaded-APIs {
     width: 100%;
